@@ -1,0 +1,62 @@
+{
+  "rhein": {
+    "slug": "rhein",
+    "name": "Rhein",
+    "length_ch_km": 375,
+    "length_total_km": 1233,
+    "quelle": "Vorderrhein (Tomasee bei Sedrun) und Hinterrhein (Rheinwaldgletscher), Graubünden",
+    "muendung": "verlässt die Schweiz bei Basel, mündet bei Rotterdam (NL) in die Nordsee",
+    "kantone": ["GR", "SG", "TG", "ZH", "SH", "AG", "BL", "BS"],
+    "note": "Grösster Fluss der Schweiz nach Wassermenge; bildet weite Strecken der Nord- und Ostgrenze."
+  },
+  "aare": {
+    "slug": "aare",
+    "name": "Aare",
+    "length_ch_km": 288,
+    "length_total_km": 288,
+    "quelle": "Unteraargletscher im Grimselgebiet, Kanton Bern",
+    "muendung": "bei Koblenz (AG) in den Rhein",
+    "kantone": ["BE", "SO", "AG"],
+    "note": "Längster Fluss, der komplett innerhalb der Schweiz verläuft."
+  },
+  "rhone": {
+    "slug": "rhone",
+    "name": "Rhône",
+    "length_ch_km": 164,
+    "length_total_km": 812,
+    "quelle": "Rhonegletscher bei der Furka, Kanton Wallis",
+    "muendung": "fliesst bei Genf aus dem Genfersee weiter Richtung Mittelmeer (Frankreich)",
+    "kantone": ["VS", "VD", "GE"],
+    "note": "Durchfliesst das Wallis von Ost nach West, danach den Genfersee."
+  },
+  "reuss": {
+    "slug": "reuss",
+    "name": "Reuss",
+    "length_ch_km": 158,
+    "length_total_km": 158,
+    "quelle": "Gotthardmassiv, Kanton Uri",
+    "muendung": "bei Brugg (AG) in die Aare",
+    "kantone": ["UR", "LU", "ZG", "AG"],
+    "note": "Durchfliesst den Vierwaldstättersee (Urnersee) sowie den Kanton Aargau."
+  },
+  "limmat": {
+    "slug": "limmat",
+    "name": "Limmat",
+    "length_ch_km": 140,
+    "length_total_km": 140,
+    "quelle": "Abfluss des Zürichsees",
+    "muendung": "bei Gebenstorf (AG) in die Aare",
+    "kantone": ["ZH", "AG"],
+    "note": "Fliesst mitten durch die Stadt Zürich."
+  },
+  "ticino": {
+    "slug": "ticino",
+    "name": "Ticino",
+    "length_ch_km": 91,
+    "length_total_km": 248,
+    "quelle": "Gotthardmassiv (Passo della Novena), Kanton Tessin",
+    "muendung": "in den Lago Maggiore",
+    "kantone": ["TI"],
+    "note": "Namensgebender Fluss des Kantons Tessin."
+  }
+}
