@@ -1,0 +1,72 @@
+{
+  "zuerich-hb": {
+    "slug": "zuerich-hb",
+    "name": "Zürich HB",
+    "kanton": "ZH",
+    "centroid": [529.1, 106.4],
+    "note": "Grösster und meistfrequentierter Bahnhof der Schweiz."
+  },
+  "bern": {
+    "slug": "bern",
+    "name": "Bern",
+    "kanton": "BE",
+    "centroid": [386.7, 240.1],
+    "note": "Knotenbahnhof im Herzen der Schweiz, an der Aare."
+  },
+  "basel-sbb": {
+    "slug": "basel-sbb",
+    "name": "Basel SBB",
+    "kanton": "BS",
+    "centroid": [384.6, 70.2],
+    "note": "Wichtigster Grenzbahnhof im Norden, nahe Frankreich und Deutschland."
+  },
+  "geneve": {
+    "slug": "geneve",
+    "name": "Genève",
+    "kanton": "GE",
+    "centroid": [151.7, 379.3],
+    "note": "Endpunkt am Westufer des Genfersees."
+  },
+  "lausanne": {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "kanton": "VD",
+    "centroid": [222.2, 308.8],
+    "note": "Knotenbahnhof am Nordufer des Genfersees."
+  },
+  "luzern": {
+    "slug": "luzern",
+    "name": "Luzern",
+    "kanton": "LU",
+    "centroid": [489.6, 208.9],
+    "note": "Zentraler Knoten am Vierwaldstättersee."
+  },
+  "olten": {
+    "slug": "olten",
+    "name": "Olten",
+    "kanton": "SO",
+    "centroid": [390.1, 131.7],
+    "note": "Historisch das 'Eisenbahnerstädtchen' - zentraler Knoten des Mittellands."
+  },
+  "biel": {
+    "slug": "biel",
+    "name": "Biel/Bienne",
+    "kanton": "BE",
+    "centroid": [325.0, 168.7],
+    "note": "Zweisprachiger Knotenbahnhof am Nordende des Bielersees."
+  },
+  "chur": {
+    "slug": "chur",
+    "name": "Chur",
+    "kanton": "GR",
+    "centroid": [640.0, 195.0],
+    "note": "Nördlichster grosser Bahnhof Graubündens, Tor zu den Alpenpässen."
+  },
+  "arth-goldau": {
+    "slug": "arth-goldau",
+    "name": "Arth-Goldau",
+    "kanton": "SZ",
+    "centroid": [563.3, 183.5],
+    "note": "Wichtiger Umsteigeknoten zwischen Zürich, Luzern und dem Gotthard."
+  }
+}
