@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kartenkunde Schweiz — Kantone, Seen, Flüsse &amp; Bahnhöfe</title>
+<meta name="description" content="Interaktive Lern-App für Schweizer Geographie: Kantone, Hauptorte, Seen, Flüsse und Bahnhöfe – per Auswahl, Kartenklick oder Markierung.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header class="site-header">
+  <div class="site-header__row">
+    <div>
+      <h1 class="site-header__title">Kartenkunde <span>Schweiz</span></h1>
+      <p class="site-header__subtitle">Kantone, Hauptorte, Seen, Flüsse und Knotenbahnhöfe üben — per Auswahl, Kartenklick oder Markierung.</p>
+    </div>
+    <div class="score-badge" id="score-badge">Punkte <b id="score-value">0</b> / <span id="score-total">0</span></div>
+  </div>
+
+  <div class="control-strip">
+    <div class="tab-group">
+      <span class="tab-group__label">THEMA</span>
+      <div class="tab-group__buttons" id="category-tabs" role="group" aria-label="Thema wählen"></div>
+    </div>
+    <div class="tab-group">
+      <span class="tab-group__label">AUFGABENTYP</span>
+      <div class="tab-group__buttons" id="tasktype-tabs" role="group" aria-label="Aufgabentyp wählen"></div>
+    </div>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+</header>
+
+<main>
+  <section class="task-panel" id="task-panel" aria-live="polite">
+    <!-- filled by js/app.js -->
+  </section>
+
+  <section class="map-panel">
+    <div class="map-wrap">
+      <svg id="ch-map" viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Karte der Schweiz">
+        <g id="layer-cantons"></g>
+        <g id="layer-lakes"></g>
+        <g id="layer-labels"></g>
+        <g id="layer-pins"></g>
+      </svg>
+    </div>
+    <p class="map-panel__caption" id="map-caption">Kantonsgrenzen &amp; Seen: swisstopo swissBOUNDARIES3D via <a href="https://github.com/greenore/swiss-maps" target="_blank" rel="noopener">greenore/swiss-maps</a>.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__row">
+    Geodaten (Kantone &amp; Seen): © swisstopo, aufbereitet von Interactive Things / greenore
+    (<a href="https://github.com/greenore/swiss-maps" target="_blank" rel="noopener">swiss-maps</a>,
+    Lizenz siehe Repository). Stationskoordinaten und Flussdaten sind Näherungswerte für den Lernzweck —
+    siehe <a href="README.md">README</a> für Details und offene Punkte.
+  </div>
+</footer>
+
+<script src="js/map.js"></script>
+<script src="js/tasks.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
